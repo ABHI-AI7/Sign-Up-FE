@@ -19,3 +19,126 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110vh;
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39,39,39,0.7), transparent);
+    z-index: 100;
+
+}
+
+
+.nav-logo p{
+    color: rgb(20, 20, 26);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-menu ul {
+    
+    display: flex;
+    
+   
+}
+
+
+.nav-menu ul li .link{
+
+    text-decoration: none;
+    padding-bottom: 15px;
+    margin: 0 25px;
+    color: rgb(83, 47, 84);
+}
+
+.nav-menu ul li{
+
+    list-style: none;
+}
+
+.link:hover, .active{
+    border-bottom: 2px solid;
+}
+
+.nav-button .btn{
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    background: rgba(218, 163, 104, 0.7);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+
+#registerbtn{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#loginbtn{
+    background-color: rgb(167, 103, 100, 0.7);
+}
+
+.btn:hover{
+    font-size: 1rem;
+}
+
+.nav-menu-btn{
+    display: none;
+}
+
+.from-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 512px;
+    height: 420px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+.register-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+}
+
+
+.top span{
+    color: #fff;
+    font-size: small;
+    padding:10px 0 ;
+    
+}
+
+.top span a{
+    font-weight: 500;
+    margin-left: 5px;
+    
+    
+}
+
+
+.header{
+    font-weight: 500;
+    
+        
+}
