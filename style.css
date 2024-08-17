@@ -14,7 +14,7 @@
 
 body{
 
-    background: url(Images1/29547-mountains-sky-clouds-4k.jpg);
+    background: url(Images1/fcfad17eed2e76351bf3ba565104b422.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ body{
     text-decoration: none;
     padding-bottom: 15px;
     margin: 0 25px;
-    color: rgb(83, 47, 84);
+    color: rgb(238, 226, 239);
 }
 
 .nav-menu ul li{
@@ -77,11 +77,12 @@ body{
     width: 120px;
     height: 30px;
     font-weight: 600;
-    background: rgba(218, 163, 104, 0.7);
+    background: rgba(104, 169, 218, 0.7);
     border-radius: 20px;
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
+  
 
 }
 
@@ -89,10 +90,12 @@ body{
 #registerbtn{
     margin-left: 15px;
     margin-right: 10px;
+    color: white;
 }
 
 #loginbtn{
-    background-color: rgb(167, 103, 100, 0.7);
+    background-color: rgba(61, 97, 190, 0.7);
+    color: white;
 }
 
 .btn:hover{
